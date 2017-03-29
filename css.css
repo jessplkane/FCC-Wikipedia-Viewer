@@ -1,0 +1,73 @@
+.box {
+  width: 70%;
+  margin: 2% 15% 2% 15%;
+  padding: 2%;
+  background-color: rgb(250,250,250);
+  display: none;
+}
+
+.box:hover {
+  border-left: solid 6px rgb(255, 14, 78);
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+.box {
+    color: rgb(0,0,0);
+  }
+
+#main {
+  margin-top: 20%;
+}
+
+body {
+  background-color: rgb(48,178,66);
+}
+
+.input-group {
+  background: none;
+}
+
+.input-group:active, .btn:active, .btn:hover, .form-control:focus {
+  background: none;
+  border-color: rgb(255, 14, 78);
+  outline: 0;
+}
+
+.form-control, .btn {
+  background: none;
+  border: solid 3px rgb(255, 14, 78);
+}
+
+.fa {
+    font-size: 1.8em;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(255, 14, 78);
+  margin: 2%;
+}
+
+#searchTerm {
+  color: rgb(255, 14, 78);
+  font-size: 1.7em;
+}
+
+footer, footer > a {
+  color: rgb(255, 14, 78);
+  text-align: center;
+}
+
+footer > a:hover, #random {
+  color: rgb(255, 14, 78);
+}
+
+a:focus {
+  color: rgb(0,0,0);
+  text-decoration: none;
+  border-left: solid 6px rgb(255, 14, 78);
+}
+
+
+
